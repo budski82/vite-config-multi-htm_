@@ -1,0 +1,5 @@
+$vh:100vh;
+
+@mixin d_fch($vh){
+    display:flex; justify-content: center; align-items: center; min-height: $vh;
+};
